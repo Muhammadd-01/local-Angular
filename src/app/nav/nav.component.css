@@ -1,0 +1,4 @@
+nav {
+  background: rgba(0, 0, 0, 0.5); /* Transparent black */
+  backdrop-filter: blur(10px);   /* Blur background */
+}
