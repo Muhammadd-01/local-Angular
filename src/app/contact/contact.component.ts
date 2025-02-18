@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './contact.component.css'
 })
 export class ContactComponent {
-
+showdata(email:any,name:any,message:any){
+  alert("The email is :" + email+"\n"+"The name is : "+name+"\n"+" The message is : "+message);
+}
 }
